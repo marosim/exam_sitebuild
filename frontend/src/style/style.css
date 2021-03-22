@@ -1,0 +1,181 @@
+*,
+body,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #22b573;
+}
+
+body h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+body h2,
+body h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+body p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 200%;
+}
+
+.app h1 {
+  color: #fff;
+  margin: 35px;
+  font-size: 55px;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+@media (min-width: 1001px) and (max-width: 1300px) {
+  .app h1 {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1000px) {
+  .app h1 {
+    margin: 50px 60px 100px;
+    font-size: 35px;
+    text-align: left;
+    letter-spacing: 8px;
+  }
+}
+
+@media (min-width: 521px) and (max-width: 740px) {
+  .app h1 {
+    margin: 55px 60px 100px;
+    font-size: 25px;
+    text-align: left;
+    letter-spacing: 6px;
+  }
+}
+
+@media (max-width: 520px) {
+  .app h1 {
+    margin: 45px 40px 100px;
+    font-size: 15px;
+    text-align: left;
+    letter-spacing: 4px;
+  }
+}
+
+.app .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 35px;
+}
+
+.app .container .left-side .text,
+.app .container .middle .text {
+  width: 360px;
+  min-height: 520px;
+  padding: 25px 35px;
+}
+
+@media (max-width: 400px) {
+  .app .container .left-side .text,
+  .app .container .middle .text {
+    width: 100%;
+  }
+}
+
+.app .container .left-side .text h3,
+.app .container .middle .text h3 {
+  width: 150px;
+  color: #e9a538;
+  letter-spacing: 2px;
+  line-height: 200%;
+}
+
+.app .container .left-side .text h3:nth-child(2),
+.app .container .middle .text h3:nth-child(2) {
+  letter-spacing: 0;
+  margin-bottom: 20px;
+}
+
+.app .container .left-side {
+  margin: 35px 37px 0 35px;
+}
+
+.app .container .left-side .text {
+  color: #fff;
+  background-color: #1a1717;
+}
+
+.app .container .middle {
+  margin: 35px 37px 0;
+}
+
+.app .container .middle .text {
+  color: #1a1717;
+  background-color: #fff;
+}
+
+.app .container .middle .text p::first-letter {
+  padding-left: 5px;
+}
+
+.app .container .right-side {
+  margin: 35px 35px 0;
+}
+
+.app .container .right-side .text {
+  width: 360px;
+  max-width: 360px;
+  min-height: 520px;
+  background-color: #1a1717;
+  position: relative;
+}
+
+@media (max-width: 400px) {
+  .app .container .right-side .text {
+    width: 100%;
+  }
+}
+
+.app .container .right-side .text h3 {
+  color: #e9a538;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 35px;
+  left: 35px;
+}
+
+.app .container .right-side .text .icon-con {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app .container .right-side .text .icon-con .icon {
+  color: #fff;
+  font-size: 140px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin: 0 0 60px;
+}
+/*# sourceMappingURL=style.css.map */
